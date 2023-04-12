@@ -18,11 +18,11 @@ The machine has the following resources:
 # How to Use
 * To use the coffee machine, the user can input the name of the desired drink or other commands:
 
-* "espresso": dispenses an espresso
-* "latte": dispenses a latte
-* "cappuccino": dispenses a cappuccino
-* "report": prints a report of the current resources and profits
-* "off": turns off the machine
+* "espresso": dispenses an espresso *
+* "latte": dispenses a latte *
+* "cappuccino": dispenses a cappuccino *
+* "report": prints a report of the current resources and profits *
+* "off": turns off the machine *
 When the user selects a drink, the machine will check if it has enough resources to make the drink. If not, it will inform the user and ask for a different selection. If there are enough resources, the machine will ask for payment.
 
 The user can input the number of quarters, dimes, nickels, and pennies they want to use for payment. The machine will calculate the total payment and check if it is sufficient. If the payment is sufficient, the machine will dispense the drink and return any change. If not, it will inform the user and ask for more payment.
