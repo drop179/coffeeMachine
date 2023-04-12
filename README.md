@@ -12,17 +12,17 @@ Cappuccino: made with 250ml water, 100ml milk, and 24g coffee, costs $3.0
 Resources
 The machine has the following resources:
 
-Water: 300ml
-Milk: 200ml
-Coffee: 100g
-How to Use
-To use the coffee machine, the user can input the name of the desired drink or other commands:
+* Water: 300ml
+* Milk: 200ml
+* Coffee: 100g
+# How to Use
+* To use the coffee machine, the user can input the name of the desired drink or other commands:
 
-"espresso": dispenses an espresso
-"latte": dispenses a latte
-"cappuccino": dispenses a cappuccino
-"report": prints a report of the current resources and profits
-"off": turns off the machine
+* "espresso": dispenses an espresso
+* "latte": dispenses a latte
+* "cappuccino": dispenses a cappuccino
+* "report": prints a report of the current resources and profits
+* "off": turns off the machine
 When the user selects a drink, the machine will check if it has enough resources to make the drink. If not, it will inform the user and ask for a different selection. If there are enough resources, the machine will ask for payment.
 
 The user can input the number of quarters, dimes, nickels, and pennies they want to use for payment. The machine will calculate the total payment and check if it is sufficient. If the payment is sufficient, the machine will dispense the drink and return any change. If not, it will inform the user and ask for more payment.
@@ -30,18 +30,18 @@ The user can input the number of quarters, dimes, nickels, and pennies they want
 Examples
 Here are some examples of using the coffee machine:
 What would you like? (espresso/latte/cappuccino): latte
-Please insert coins.
-how many quarters?: 2
-how many dimes?: 0
-how many nickles?: 0
-how many pennies?: 0
-Here is $0.5 in change.
-Here is your latte ☕️. Enjoy!
-What would you like? (espresso/latte/cappuccino): cappuccino
-​Sorry there is not enough water.
-What would you like? (espresso/latte/cappuccino): report
-Water: 50ml
-Milk: 50ml
-Coffee: 76g
-Money: $2.5
-What would you like? (espresso/latte/cappuccino): off
+* Please insert coins.
+* how many quarters?: 2
+* how many dimes?: 0
+* how many nickles?: 0
+* how many pennies?: 0
+* Here is $0.5 in change.
+* Here is your latte ☕️. Enjoy!
+* What would you like? (espresso/latte/cappuccino): cappuccino
+* ​Sorry there is not enough water.
+* What would you like? (espresso/latte/cappuccino): report
+* Water: 50ml
+* Milk: 50ml
+* Coffee: 76g
+* Money: $2.5
+* What would you like? (espresso/latte/cappuccino): off
