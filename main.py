@@ -68,7 +68,7 @@ def make_coffee(drink_name, order_ingredients):
 is_on = True
 
 while is_on:
-    choice = input("What would you like to drink? (Coffee/Latte/Capuccino) :")
+    choice = input("What would you like to drink? (Espresso/Latte/Cappuccino) :")
     if choice == "off":
         is_on = False
     elif choice == "report":
@@ -77,6 +77,7 @@ while is_on:
         print(f"Water: {resources['water']}ml")
         print(f"Money: £{'profit'}")
     else:
+        choice = choice.lower()
         drink = MENU[choice]
         if is_resource_sufficient(drink["ingredients"]):
             payment = process_coins()
