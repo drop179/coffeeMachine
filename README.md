@@ -1,6 +1,6 @@
 # coffeeMachine
 ## Coffee Machine app
-## Coffee Machine
+
 This code simulates the operation of a coffee machine. It has a menu of drinks (espresso, latte, and cappuccino), and the user can select a drink by inputting its name. The machine will then check if it has sufficient resources to make the drink and ask the user for payment. If the payment is successful, the machine will dispense the drink and return any change.
 
 # Menu
